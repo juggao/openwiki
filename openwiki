@@ -4,9 +4,8 @@
 # AO-2019
 #
 # INSTALL : pip install wptools
-#           pip install termcolor
 #           cp openwiki ~/bin (or a location in your $PATH)
-#           chmod u+x describe
+#           chmod u+x openwiki
 #
 # https://meta.wikimedia.org/wiki/List_of_Wikipedias
 #
@@ -15,7 +14,7 @@ import sys
 import os
 import pycurl
 import webbrowser
-from termcolor import colored
+#from termcolor import colored
 
 # Define a context manager to suppress stdout and stderr.
 class suppress_stdout_stderr(object):
