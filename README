@@ -4,7 +4,6 @@ INSTALL:
 --------
 sudo apt-get install python
 pip install wptools
-pip install termcolor
 cp openwiki to ~/bin or somewhere in your $PATH
 chmod u+x openwiki
 
